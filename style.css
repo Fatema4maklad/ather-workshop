@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+
+
+#card-wrapper {
+    display: block;
+}
+
+#card {
+    background-color: #faf9f6; 
+    width: 350px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.08); 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#card-name {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #222222;
+    text-transform: uppercase;
+}
+#card-title {
+    margin: 4px 0 0 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    color: #777777; /* Soft faint grey */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+#social-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#link-linkedin,
+#link-github {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#icon-linkedin,
+#icon-github {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+#contact-btn {
+    background-color: transparent;
+    color: #333333;
+    border: 1px solid #333333;
+    padding: 5px 16px;
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
